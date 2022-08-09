@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 export default function Home() {
   return (
-  <div>
+  <div className='bg-red-200'>
       <Link href='/blog'>
       <a>ブログページ（next/link）</a>
       </Link>
@@ -13,6 +13,7 @@ export default function Home() {
         alt='パレッティ公式キャラクター'
       />
     <img src='/vercel.svg' />
+    <div>main ブランチにプッシュしてみる!</div>
     <div>Hello Next.js!</div>
   </div>
   )
